@@ -1,0 +1,18 @@
+<div class="container settings">
+
+    <h4>Amazing stForm</h4>
+
+    <st-form entity="{entity}" config="{formConfig}">
+        <field data-type="Text" data-name="surname" data-title="Surname">
+            <rule data-type="Required">This field is mandatory!</rule>
+        </field>
+
+        <field data-type="Text" data-name="name" data-title="Name">
+            <rule data-type="Required">This field is mandatory!</rule>
+        </field>
+
+        <action data-title="Save" data-callback="save" data-name="save"></action>
+
+    </st-form>
+
+</div>
