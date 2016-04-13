@@ -4,7 +4,7 @@
   "main": "src/stForm.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Storyous/stForm"
+    "url": "https://github.com/vojtesaak/stForm.git"
   },
   "system": {
     "npmAlgorithm": "flat"
@@ -18,7 +18,7 @@
     "jquery.scrollto": "^2.1.1",
     "can": "2.3.7",
     "handlebars": "^3.0.3",
-    "stloader": "^1.0.0",
+    "stloader": "git://github.com/vojtesaak/stloader.git#master",
     "lodash": "^3.10.1"
   },
   "devDependencies": {
