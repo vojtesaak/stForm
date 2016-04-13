@@ -33,17 +33,20 @@ can.Component.extend({
 
         init: function () {
 
-            this.attr('entity',new can.Model({
-                name: 'John',
-                surname: 'Doe'
-            }));
+            this.attr('entity',new can.Model());
 
-            var configProccessedCb = function() {
-                this.namedActions.save.setCallback(function() {
-                     console.log('saved');
+            this.attr('formConfig', new StFormConfig(function() {
+
+                var formConfig = this;
+
+                formConfig.namedActions.save.setCallback(function() {
+
+                    formConfig.validateForm()
+                        .then(function () {
+                            alert('saved!');
+                        });
                 });
-            };
-            this.attr('formConfig', new StFormConfig(configProccessedCb));
+            }));
         }
 
     },
