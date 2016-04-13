@@ -1,4 +1,6 @@
 
+'use strict';
+
 var can = require('can');
 var stache = require('can/view/stache/stache');
 
