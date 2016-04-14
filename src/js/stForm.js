@@ -5,7 +5,7 @@
 'use strict';
 
 var can = require('can');
-var HtmlParser = require('../src/utils/htmlParser');
+var HtmlParser = require('./utils/htmlParser');
 var StFormConfig = require('./stFormConfig');
 
 var stloader = require('stloader');
