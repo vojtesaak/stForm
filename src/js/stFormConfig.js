@@ -6,7 +6,7 @@
 'use strict';
 
 var can = require('can');
-var HtmlParser = require('../src/utils/htmlParser');
+var HtmlParser = require('./utils/htmlParser');
 var FieldFactory = require('./fields/fieldFactory');
 var FieldGroup = require('./fields/fieldGroup');
 var Area = require('./area');
