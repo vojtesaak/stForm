@@ -4,7 +4,7 @@
 var can = require('can');
 var stache = require('can/view/stache/stache');
 
-var StFormConfig = require('../src/stFormConfig');
+var StFormConfig = require('../src/js/stFormConfig');
 
 
 can.Component.extend({
