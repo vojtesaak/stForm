@@ -1,6 +1,7 @@
 /**
  * Created by lukas on 10.9.15.
  */
+
 'use strict';
 
 var RuleNumberBase = require('./ruleNumberBase');

@@ -11,6 +11,7 @@
         colors: [
             'd57229', 'e7bb12', '842c57', 'af5fb6', '19175b', '1e2c75', '2874aa', '2fa049', '2abb8b'
         ],
+
         /**
          *
          * @returns {string}
@@ -21,9 +22,11 @@
                  + '{{#each ' + this.getTemplateAttr('colors') +'}}' + this.getOptionTemplate() +'{{/each}}'
                  + '</select>';
         },
+
         getOptionTemplate : function() {
             return '<option value="{{.}}"  data-content="<span class=\'select-color-label\' style=\'background-color: #{{.}}\'></span>">{{.}}</option>';
         },
+
         initField : function()
         {
             var $input = $('#'+this.id);

@@ -2,6 +2,7 @@
  * Created by vojtechmalek on 28.1.16.
  */
 
+
 'use strict';
 
 var RuleBase = require('./ruleBase');

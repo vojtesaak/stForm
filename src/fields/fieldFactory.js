@@ -4,6 +4,7 @@
 
 'use strict';
 
+
 var FieldPassword = require('./fieldPassword');
 var FieldText = require('./fieldText');
 var FieldNumber = require('./fieldNumber');

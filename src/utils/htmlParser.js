@@ -1,6 +1,7 @@
 /**
  * Created by davidmenger on 20/02/15.
  */
+
     'use strict';
 
     var can = require('can');

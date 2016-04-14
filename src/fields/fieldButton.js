@@ -13,6 +13,7 @@ var FieldButton = Field.extend({
         return '';
     },
 
+
     /**
      *
      * @returns {string}

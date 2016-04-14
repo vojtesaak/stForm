@@ -1,6 +1,7 @@
 /**
  * Created by vojtechmalek on 27.1.16.
  */
+
 'use strict';
 
 var RuleBase = require('./ruleBase');

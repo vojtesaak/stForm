@@ -6,6 +6,7 @@
 var Field = require('./field');
 
 var FieldText = Field.extend({
+
     /**
      *
      * @returns {string}

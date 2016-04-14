@@ -7,6 +7,7 @@
 var can = require('can');
 
 var RuleBase = can.Construct.extend({
+
     /**
      * @type {string|null}
      */

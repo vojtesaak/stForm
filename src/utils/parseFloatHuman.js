@@ -4,6 +4,7 @@
 
 'use strict';
 
+
 /**
  * @param {string} value
  * @returns {number|null}

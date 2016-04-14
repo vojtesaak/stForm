@@ -11,6 +11,7 @@ var Select = require('../utils/select');
 require('bootstrap-select');
 require('bootstrap-select/dist/css/bootstrap-select.min.css!');
 require('jquery.scrollto');
+
 var visible = require('visible-element')($);
 
 var FieldSelect = Field.extend({

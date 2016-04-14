@@ -4,6 +4,7 @@
 
     'use strict';
 
+
     var Field = require('./field');
 
     var FieldCheckbox = Field.extend({

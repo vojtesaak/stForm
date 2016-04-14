@@ -4,6 +4,7 @@
 
 'use strict';
 
+
 var RuleBase = require('./ruleBase');
 
 var RuleNotNull = RuleBase.extend({

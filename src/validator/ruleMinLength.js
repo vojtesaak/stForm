@@ -17,6 +17,7 @@ var RuleMinLength= RuleBase.extend({
         value = value.toString();
         return value.length >= this.minLength;
     }
+
 });
 
 module.exports = RuleMinLength;

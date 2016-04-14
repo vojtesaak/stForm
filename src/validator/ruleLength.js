@@ -6,6 +6,7 @@
 
 var RuleBase = require('./ruleBase');
 
+
 var RuleLength= RuleBase.extend({
 
     init: function(configuration) {

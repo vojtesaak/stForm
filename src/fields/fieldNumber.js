@@ -1,6 +1,7 @@
 /**
  * Created by Václav Oborník on 14.1.2016.
  */
+
 'use strict';
 
 var Field = require('./field');

@@ -3,6 +3,7 @@
  */
 
 'use strict';
+
 var can = require('can');
 var HtmlParser = require('../utils/htmlParser');
 

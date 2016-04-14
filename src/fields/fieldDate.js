@@ -15,6 +15,7 @@ var FieldDate = Field.extend({
 
         this.type = type === 'date' ? type : type + '-local';
     },
+
     /**
      *
      * @returns {string}

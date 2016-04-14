@@ -21,7 +21,6 @@ var RuleVatId = require('./ruleVatId');
 
 var Validator = can.Construct.extend({
 
-
 },{
 
     /**

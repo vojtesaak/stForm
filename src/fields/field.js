@@ -10,8 +10,11 @@ var Field = can.Map.extend({
     counter: 0
 },{
     id: null,
+
     name: null,
+
     title: null,
+
     render: true,
 
     hidden: false,
