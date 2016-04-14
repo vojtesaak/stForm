@@ -8,7 +8,7 @@ var can = require('can');
 var Field = require('./field');
 var Select = require('../utils/select');
 
-require('bootstrap-select');
+require('bootstrap-select-js');
 require('bootstrap-select/dist/css/bootstrap-select.min.css!');
 require('jquery.scrollto');
 
