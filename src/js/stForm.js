@@ -158,11 +158,13 @@ can.Component.extend({
 
             var callback = this.attr('config.namedActions.' + callbackName + '.callback');
 
+            console.log(callback);
+
             if ( callback && typeof callback === 'function') {
                 callback();
                 return
             }
-
+            console.log('k');
             this.$element.trigger('callAction', {
                 callback: callbackName,
                 parameters: [this.config, can.$(element)]

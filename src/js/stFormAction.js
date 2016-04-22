@@ -71,7 +71,10 @@ var StFormAction = can.Map.extend({
         var disabled = '{{#if ' + this.getTemplateAttr('_disabled') + '}} disabled="disabled" {{/if}} ';
         btnClass += '{{#if ' + spinningPath + '}} spinning {{/if}}';
 
-
+        console.log('---dd-');
+        console.log(this.name);
+        console.log(this.callback);
+        
         var html =  '{{#unless ' + this.getTemplateAttr('_hidden') + '}} ';
         html +=         '<button ($click)="callAction \'' + this.name + '\' $element" ' + disabled  + 'class="' + btnClass + '" >';
         html +=         '{{#if ' + spinningPath + '}}<i class="glyphicon glyphicon-refresh" aria-hidden="true"></i>{{/if}}';

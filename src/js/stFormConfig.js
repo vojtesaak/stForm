@@ -61,6 +61,7 @@ var StFormConfig = can.Map.extend({
 
         this.attr('_onConfigProcessed', onConfigProcessed);
 
+        console.log('formConfig');
         this.bind('loading', function(ev, newVal) {
 
             var $loader = $('loader[data-name="form-loader"]');
