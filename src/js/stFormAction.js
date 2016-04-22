@@ -42,6 +42,7 @@ var StFormAction = can.Map.extend({
      * @param {StFormConfig|StFormAction} parentConfig
      */
     init: function(config, parentConfig) {
+        console.log('this',this);
         this.attr('parentConfig', parentConfig);
         this.attr('form', config.attr('form'));
         this.attr('title', config.attr('title'));
