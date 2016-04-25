@@ -13,7 +13,7 @@ var Area = require('./area');
 var Title = require('./title');
 var StFormAction = require('./stFormAction');
 
-require('./stForm');
+//require('./stForm');
 
 var StFormConfig = can.Map.extend({
     // static
@@ -60,8 +60,6 @@ var StFormConfig = can.Map.extend({
     init : function (onConfigProcessed) {
 
         this.attr('_onConfigProcessed', onConfigProcessed);
-
-        console.log('formConfig');
         this.bind('loading', function(ev, newVal) {
 
             var $loader = $('loader[data-name="form-loader"]');
@@ -81,7 +79,7 @@ var StFormConfig = can.Map.extend({
                 }
 
             }
-            debugger;
+
         });
     },
 
