@@ -12,7 +12,7 @@ var stloader = require('stloader');
 
 
 require('bootstrap-select-js');
-require('../less/main.less!');
+//require('../less/main.less!');
 require('jquery.scrollto');
 
 function _fullFillConfigFromInner(formConfig, data, options) {

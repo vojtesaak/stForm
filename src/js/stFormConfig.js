@@ -17,7 +17,6 @@ var StFormAction = require('./stFormAction');
 
 var StFormConfig = can.Map.extend({
     // static
-
 },{
 
     /**
