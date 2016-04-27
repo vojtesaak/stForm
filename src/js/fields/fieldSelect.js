@@ -9,7 +9,7 @@ var Field = require('./field');
 var Select = require('../utils/select');
 
 require('bootstrap-select-js');
-//require('bootstrap-select-css/bootstrap-select.css!');
+require('bootstrap-select-less/bootstrap-select.less!');
 require('jquery.scrollto');
 
 var visible = require('visible-element')($);
